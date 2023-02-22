@@ -27,12 +27,14 @@ body {
   position: fixed;
   bottom: 120px;
 }
+
 #start,
 #reset:hover {
   background-color: rgb(74, 136, 229);
   color: White;
   border: 2px solid black;
 }
+
 #piatra,
 #hartie,
 #foarfeca {
@@ -41,12 +43,12 @@ body {
   border: 1px solid black;
   margin: 10px;
   background-color: rgb(96, 151, 235);
-  position: fixed;
+  position: relative;
   top: -50px;
 }
 #status {
   display: none;
-  position: fixed;
+  position: absolute;
   font-size: 40px;
   top: 20px;
 }
@@ -85,18 +87,18 @@ body {
   height: 100px;
 }
 .botsignp {
-  position: fixed;
+  position: relative;
   top: 90px;
 }
 .mysignp {
-  position: fixed;
+  position: relative;
   top: -70px;
 }
 #introphoto {
-  position: fixed;
+  position: relative;
   top: -100px;
 }
 #introtext {
-  position: fixed;
+  position: relative;
   top: -140px;
 }
