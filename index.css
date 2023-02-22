@@ -41,12 +41,12 @@ body {
   border: 1px solid black;
   margin: 10px;
   background-color: rgb(96, 151, 235);
-  position: relative;
+  position: fixed;
   top: -50px;
 }
 #status {
   display: none;
-  position: absolute;
+  position: fixed;
   font-size: 40px;
   top: 20px;
 }
@@ -85,18 +85,18 @@ body {
   height: 100px;
 }
 .botsignp {
-  position: relative;
+  position: fixed;
   top: 90px;
 }
 .mysignp {
-  position: relative;
+  position: fixed;
   top: -70px;
 }
 #introphoto {
-  position: relative;
+  position: fixed;
   top: -100px;
 }
 #introtext {
-  position: relative;
+  position: fixed;
   top: -140px;
 }
